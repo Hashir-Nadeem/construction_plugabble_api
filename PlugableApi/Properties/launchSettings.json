@@ -1,0 +1,44 @@
+{
+  "profiles": {
+    "PlugableApi": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "dotnetRunMessages": true,
+      "applicationUrl": "https://localhost:7204;http://localhost:5204"
+    },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "launchBrowser": true,
+      "launchUrl": "swagger",
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      }
+    }
+  },
+
+  "PlugableApi Production": {
+    "commandName": "Project",
+    "launchBrowser": true,
+    "launchUrl": "",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Production"
+    },
+    "dotnetRunMessages": true,
+    "applicationUrl": ""
+  },
+
+
+  "$schema": "https://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:45085",
+      "sslPort": 44367
+    }
+  }
+}
